@@ -1,0 +1,72 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path" : "pages/task/task",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/chart/chart",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},		
+		{
+			"path" : "pages/profile/profile",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#000",
+		"selectedColor": "#287aff",
+		"fontSize": "25rpx",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/icons/wg_lightning.png",
+				"selectedIconPath": "static/icons_selected/wg_lightning_selected.png"
+			},
+			{
+				"pagePath": "pages/task/task",
+				"text": "任务",
+				"iconPath": "static/icons/wg_list.png",
+				"selectedIconPath": "static/icons_selected/wg_list_selected.png"
+			},
+			{
+				"pagePath": "pages/chart/chart",
+				"text": "分析",
+				"iconPath": "static/icons/wg_chart.png",
+				"selectedIconPath": "static/icons_selected/wg_chart_selected.png"
+			},
+			{
+				"pagePath": "pages/profile/profile",
+				"text": "我的",
+				"iconPath": "static/icons/wg_user.png",
+				"selectedIconPath": "static/icons_selected/wg_user_selected.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
